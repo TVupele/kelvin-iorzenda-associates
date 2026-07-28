@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en-NG">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kelvin Iorzenda &amp; Associates — Legal Practitioners &amp; Notary Public, Makurdi</title>
+<meta name="description" content="A law firm in Makurdi, Benue State. Court practice, representation before law enforcement agencies, commercial and land matters, and notarial services.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#E9EBE4;
+  --card:#F5F6F1;
+  --ink:#131A17;
+  --slate:#4E574F;
+  --rule:#C6CCC2;
+  --oxblood:#6E1B26;
+  --oxblood-deep:#4E121A;
+  --brass:#9C7B34;
+  --display:"Zilla Slab", Rockwell, "Roboto Slab", Georgia, serif;
+  --body:"Public Sans", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --wrap:1080px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--body); font-size:17px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--wrap); margin:0 auto; padding:0 22px}
+a{color:inherit}
+
+/* ---------- demonstration notice ---------- */
+.demo{
+  background:var(--oxblood-deep); color:#F2E7E4;
+  font-size:12.5px; line-height:1.45; letter-spacing:.01em;
+  padding:10px 0; text-align:center;
+}
+.demo strong{color:#fff; letter-spacing:.06em; text-transform:uppercase; font-size:11px}
+
+/* ---------- masthead ---------- */
+.masthead{
+  border-bottom:1px solid var(--rule);
+  padding:20px 0 18px;
+}
+.masthead .wrap{display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap}
+.wordmark{font-family:var(--display); font-weight:600; font-size:20px; line-height:1.15; letter-spacing:-.01em}
+.wordmark span{display:block; font-family:var(--body); font-weight:500; font-size:10.5px;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--slate); margin-top:6px}
+.mast-actions{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-block; text-decoration:none; font-weight:600; font-size:15px;
+  padding:12px 20px; border:1px solid var(--oxblood); border-radius:2px;
+  transition:background .18s ease, color .18s ease;
+}
+.btn-solid{background:var(--oxblood); color:#FBF7F5}
+.btn-solid:hover{background:var(--oxblood-deep)}
+.btn-line{background:transparent; color:var(--oxblood)}
+.btn-line:hover{background:var(--oxblood); color:#FBF7F5}
+.btn-sm{padding:9px 15px; font-size:14px}
+a:focus-visible,button:focus-visible{outline:2.5px solid var(--brass); outline-offset:3px}
+
+/* ---------- hero ---------- */
+.hero{padding:64px 0 58px; border-bottom:1px solid var(--rule)}
+.hero .wrap{display:grid; grid-template-columns:1.35fr .65fr; gap:52px; align-items:center}
+.eyebrow{font-size:11px; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--oxblood); font-weight:600; margin:0 0 18px}
+h1{
+  font-family:var(--display); font-weight:600; font-size:clamp(34px,5.4vw,54px);
+  line-height:1.08; letter-spacing:-.02em; margin:0 0 20px; text-wrap:balance;
+}
+.lede{font-size:18px; color:var(--slate); margin:0 0 26px; max-width:46ch}
+.hero-actions{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:20px}
+.status{font-size:14px; color:var(--slate); display:flex; align-items:center; gap:9px}
+.dot{width:8px; height:8px; border-radius:50%; background:var(--brass); flex:none}
+.dot.open{background:#2E6B4F}
+.dot.closed{background:var(--oxblood)}
+
+/* ---------- signature: the notarial seal ---------- */
+.seal{width:100%; max-width:250px; margin:0 auto; display:block}
+.seal .ring{fill:none; stroke:var(--brass); }
+.seal .field{fill:var(--brass); opacity:.07}
+.seal text{fill:var(--brass); font-family:var(--body); font-weight:600}
+.seal .curve{font-size:10.4px; letter-spacing:.26em}
+.seal .mono{font-family:var(--display); font-weight:600; font-size:31px; letter-spacing:.02em; fill:var(--brass)}
+.seal .yr{font-size:9px; letter-spacing:.22em}
+
+/* ---------- urgent sequence ---------- */
+.urgent{background:var(--ink); color:#E4E8E3; padding:56px 0}
+.urgent h2{font-family:var(--display); font-weight:600; font-size:clamp(24px,3.4vw,32px);
+  line-height:1.15; margin:0 0 12px; color:#fff; max-width:22ch}
+.urgent .intro{color:#A9B2AB; max-width:60ch; margin:0 0 34px; font-size:16.5px}
+.steps{display:grid; grid-template-columns:repeat(3,1fr); gap:0; border-top:1px solid #2C3733}
+.step{padding:24px 26px 26px 0; border-right:1px solid #2C3733}
+.step:last-child{border-right:0; padding-right:0}
+.step .n{font-family:var(--display); font-size:13px; font-weight:600; color:var(--brass);
+  letter-spacing:.16em; display:block; margin-bottom:12px}
+.step h3{font-size:17px; font-weight:600; margin:0 0 8px; color:#fff}
+.step p{margin:0; font-size:15.5px; color:#A9B2AB; line-height:1.55}
+.urgent-foot{margin-top:32px; display:flex; gap:14px; align-items:center; flex-wrap:wrap}
+.urgent-foot .btn-solid{background:var(--oxblood); border-color:var(--oxblood)}
+.urgent-foot .note{font-size:14px; color:#8E9891}
+
+/* ---------- generic section ---------- */
+section.band{padding:66px 0; border-bottom:1px solid var(--rule)}
+.section-head{margin-bottom:34px; max-width:58ch}
+.section-head h2{font-family:var(--display); font-weight:600;
+  font-size:clamp(25px,3.6vw,34px); line-height:1.16; margin:0 0 12px; letter-spacing:-.01em}
+.section-head p{margin:0; color:var(--slate); font-size:16.5px}
+
+/* ---------- practice ---------- */
+.practice{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--rule);
+  border:1px solid var(--rule)}
+.pcard{background:var(--card); padding:26px 24px 28px}
+.pcard h3{font-family:var(--display); font-size:19px; font-weight:600; margin:0 0 10px; line-height:1.25}
+.pcard p{margin:0; font-size:15.5px; color:var(--slate); line-height:1.55}
+.pcard .forum{display:block; margin-top:14px; font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--oxblood); font-weight:600}
+
+/* ---------- firm ---------- */
+.firm{display:grid; grid-template-columns:1fr 1fr; gap:52px; align-items:start}
+.firm p{font-size:16.5px; margin:0 0 16px}
+.record{list-style:none; margin:0; padding:0; border-top:1px solid var(--rule)}
+.record li{padding:15px 0; border-bottom:1px solid var(--rule); display:grid;
+  grid-template-columns:96px 1fr; gap:18px; font-size:15.5px; align-items:baseline}
+.record .k{font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--oxblood); font-weight:600; line-height:1.5}
+
+/* ---------- contact ---------- */
+.contact{display:grid; grid-template-columns:1fr 1fr; gap:52px}
+.cblock{margin-bottom:26px}
+.cblock .k{font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--oxblood); font-weight:600; display:block; margin-bottom:6px}
+.cblock .v{font-size:18px; font-family:var(--display); font-weight:500; line-height:1.4}
+.cblock .v a{text-decoration:none; border-bottom:1px solid var(--rule)}
+.cblock .v a:hover{border-bottom-color:var(--oxblood)}
+.cblock small{display:block; color:var(--slate); font-size:14.5px; margin-top:5px; font-family:var(--body)}
+
+/* ---------- footer ---------- */
+footer{background:var(--ink); color:#8E9891; padding:46px 0 54px; font-size:14px}
+footer .fwrap{display:grid; grid-template-columns:1.2fr 1fr; gap:40px}
+footer h4{color:#E4E8E3; font-family:var(--display); font-size:16px; margin:0 0 10px; font-weight:600}
+footer p{margin:0 0 14px; line-height:1.6; max-width:62ch}
+.legend{border-top:1px solid #2C3733; margin-top:34px; padding-top:20px; font-size:12.5px; line-height:1.6}
+.ph{border-bottom:1px dotted currentColor; opacity:.95}
+
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr; gap:38px}
+  .seal{max-width:190px; margin:0}
+  .steps{grid-template-columns:1fr}
+  .step{border-right:0; border-bottom:1px solid #2C3733; padding:22px 0 24px}
+  .step:last-child{border-bottom:0}
+  .practice{grid-template-columns:1fr}
+  .firm,.contact,footer .fwrap{grid-template-columns:1fr; gap:34px}
+  .hero{padding:44px 0 40px}
+  section.band{padding:48px 0}
+}
+@media (prefers-reduced-motion:no-preference){
+  .reveal{animation:rise .7s cubic-bezier(.2,.7,.3,1) both}
+  .reveal-2{animation-delay:.09s}
+  .reveal-3{animation-delay:.18s}
+  @keyframes rise{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+}
+</style>
+</head>
+<body>
+
+<div class="demo">
+  <div class="wrap">
+    <strong>Demonstration</strong> — an unofficial concept prepared by George T. Upele, not published by or affiliated with Kelvin Iorzenda &amp; Associates. Do not use it to seek legal advice.
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="wordmark">Kelvin Iorzenda &amp; Associates
+      <span>Legal Practitioners &amp; Notary Public</span>
+    </div>
+    <div class="mast-actions">
+      <a class="btn btn-line btn-sm" href="tel:+2347034611133">0703 461 1133</a>
+      <a class="btn btn-solid btn-sm" href="https://wa.me/2347034611133">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow reveal">Makurdi, Benue State &nbsp;·&nbsp; Established 2018</p>
+      <h1 class="reveal reveal-2">A law firm you can reach when the matter cannot wait.</h1>
+      <p class="lede reveal reveal-3">We appear before the courts in Benue State and beyond, and represent clients before the EFCC, the DSS and other law enforcement agencies — so that their rights are protected while lawful invitations are honoured.</p>
+      <div class="hero-actions reveal reveal-3">
+        <a class="btn btn-solid" href="tel:+2347034611133">Call 0703 461 1133</a>
+        <a class="btn btn-line" href="https://wa.me/2347034611133">Send a message on WhatsApp</a>
+      </div>
+      <p class="status"><span class="dot" id="dot"></span><span id="statusText">Office hours: <span class="ph">Monday to Friday, 8:00&nbsp;a.m. – 5:00&nbsp;p.m.</span></span></p>
+    </div>
+
+    <div>
+      <svg class="seal" viewBox="0 0 240 240" role="img" aria-label="Notary Public of Nigeria">
+        <defs>
+          <path id="arcTop" d="M120,120 m-92,0 a92,92 0 1,1 184,0" fill="none"/>
+          <path id="arcBot" d="M120,120 m-78,0 a78,78 0 1,0 156,0" fill="none"/>
+        </defs>
+        <circle class="field" cx="120" cy="120" r="104"/>
+        <circle class="ring" cx="120" cy="120" r="104" stroke-width="1.2"/>
+        <circle class="ring" cx="120" cy="120" r="97" stroke-width="2.6"/>
+        <circle class="ring" cx="120" cy="120" r="64" stroke-width="0.9"/>
+        <text class="curve"><textPath href="#arcTop" startOffset="50%" text-anchor="middle">NOTARY PUBLIC OF NIGERIA</textPath></text>
+        <text class="curve"><textPath href="#arcBot" startOffset="50%" text-anchor="middle">MAKURDI · BENUE STATE</textPath></text>
+        <text class="mono" x="120" y="132" text-anchor="middle">KI&amp;A</text>
+        <text class="yr" x="120" y="152" text-anchor="middle" fill="currentColor" style="fill:var(--brass)">EST. 2018</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="urgent" id="urgent">
+  <div class="wrap">
+    <h2>Invited by the EFCC, the DSS or the Police?</h2>
+    <p class="intro">An invitation is not a conviction, and honouring one does not mean facing it alone. This is what to do while you arrange counsel.</p>
+
+    <div class="steps">
+      <div class="step">
+        <span class="n">STEP 1</span>
+        <h3>Do not go alone</h3>
+        <p>You are entitled to have a lawyer present. Ask for the invitation in writing, and note the name of the officer and the office issuing it.</p>
+      </div>
+      <div class="step">
+        <span class="n">STEP 2</span>
+        <h3>Say nothing you have not read</h3>
+        <p>You are not obliged to make or sign a statement without counsel. Do not sign a document you have not read in full.</p>
+      </div>
+      <div class="step">
+        <span class="n">STEP 3</span>
+        <h3>Call before you attend</h3>
+        <p>Tell us the agency, the date on the invitation and the office named. We will tell you what to expect and whether we can attend with you.</p>
+      </div>
+    </div>
+
+    <div class="urgent-foot">
+      <a class="btn btn-solid" href="tel:+2347034611133">Call 0703 461 1133</a>
+      <a class="btn btn-line" href="https://wa.me/2347034611133" style="color:#E4E8E3; border-color:#4E574F">WhatsApp</a>
+      <span class="note">General information only. It is not legal advice on your matter.</span>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="practice">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Areas of practice</h2>
+      <p>A full-service practice with court work at its centre. Matters are handled from the Makurdi office and, where required, in other states.</p>
+    </div>
+
+    <div class="practice">
+      <div class="pcard">
+        <h3>Law enforcement and criminal defence</h3>
+        <p>Representation at the EFCC, the DSS, the ICPC, the Police and other agencies, and defence in criminal proceedings, including bail applications.</p>
+        <span class="forum">Federal High Court · State High Court</span>
+      </div>
+      <div class="pcard">
+        <h3>Labour and trade union disputes</h3>
+        <p>Disputes over union registration and recognition, representation of associations and their members, and employment matters.</p>
+        <span class="forum">National Industrial Court</span>
+      </div>
+      <div class="pcard">
+        <h3>Commercial law and contracts</h3>
+        <p>Drafting and review of agreements, company formation and secretarial work, debt recovery, and commercial disputes.</p>
+        <span class="forum"><span class="ph">Advisory &amp; litigation</span></span>
+      </div>
+      <div class="pcard">
+        <h3>Land, landlord and tenant</h3>
+        <p>Title investigation, conveyancing and documentation, recovery of premises, and disputes over possession and rent.</p>
+        <span class="forum"><span class="ph">State High Court · Magistrates</span></span>
+      </div>
+      <div class="pcard">
+        <h3>Human and digital rights</h3>
+        <p>Enforcement of fundamental rights, unlawful detention, and matters arising from online expression, data and cybercrime allegations.</p>
+        <span class="forum">Fundamental rights procedure</span>
+      </div>
+      <div class="pcard">
+        <h3>Notarial services</h3>
+        <p>Attestation and authentication of documents for use in Nigeria and abroad, affidavits, powers of attorney and certified copies.</p>
+        <span class="forum">Notary Public of Nigeria</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="firm">
+  <div class="wrap">
+    <div class="firm">
+      <div>
+        <div class="section-head" style="margin-bottom:22px">
+          <h2>The firm</h2>
+        </div>
+        <p>Kelvin Iorzenda &amp; Associates is a full-service law firm headquartered in Makurdi, Benue State. It was registered in 2018 and practises across commercial law, contracts, land, landlord and tenant matters, criminal defence and notarial work.</p>
+        <p>The principal, <strong>Kelvin Iorzenda, Esq.</strong>, is a Barrister and Solicitor of the Supreme Court of Nigeria and a Notary Public of Nigeria. He served as Secretary of the Nigerian Bar Association, Makurdi Branch, from June 2024 to June 2026, and has spoken publicly on the implementation of Benue State's Administration of Criminal Justice Law.</p>
+      </div>
+      <div>
+        <ul class="record">
+          <li><span class="k">Called</span><span>Barrister and Solicitor of the Supreme Court of Nigeria</span></li>
+          <li><span class="k">Appointed</span><span>Notary Public of Nigeria</span></li>
+          <li><span class="k">Bar service</span><span>Secretary, NBA Makurdi Branch, 2024–2026</span></li>
+          <li><span class="k">Registered</span><span>Incorporated in Makurdi, 2018</span></li>
+          <li><span class="k">Forums</span><span>National Industrial Court · Federal High Court · Benue State High Court</span></li>
+          <li><span class="k">Interests</span><span>Human rights, digital rights and criminal justice reform</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Speak to the firm</h2>
+      <p>Call during office hours, or send a WhatsApp message at any time and it will be answered when the office opens.</p>
+    </div>
+    <div class="contact">
+      <div>
+        <div class="cblock">
+          <span class="k">Telephone</span>
+          <div class="v"><a href="tel:+2347034611133">0703 461 1133</a></div>
+          <small>WhatsApp: <a href="https://wa.me/2347034611133">wa.me/2347034611133</a></small>
+        </div>
+        <div class="cblock">
+          <span class="k">Email</span>
+          <div class="v"><span class="ph">chambers@kelviniorzenda.com</span></div>
+          <small>A firm address on the firm's own domain.</small>
+        </div>
+      </div>
+      <div>
+        <div class="cblock">
+          <span class="k">Office</span>
+          <div class="v">20 Iorkyaa Ako Street<br>High Level, Makurdi 970101<br>Benue State</div>
+          <small>Plus code PGFM+3F Makurdi</small>
+        </div>
+        <div class="cblock">
+          <span class="k">Hours</span>
+          <div class="v"><span class="ph">Monday – Friday, 8:00 a.m. – 5:00 p.m.</span></div>
+          <small>Urgent matters outside these hours: send a WhatsApp message.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fwrap">
+      <div>
+        <h4>Kelvin Iorzenda &amp; Associates</h4>
+        <p>20 Iorkyaa Ako Street, High Level, Makurdi 970101, Benue State, Nigeria.</p>
+        <p>This site is published for information. Nothing on it is legal advice, and reading it does not create a lawyer–client relationship. Content is intended to comply with Rule 39 of the Rules of Professional Conduct for Legal Practitioners.</p>
+      </div>
+      <div>
+        <h4>About this page</h4>
+        <p>An unofficial demonstration built by <strong>George T. Upele</strong> to show how the firm's existing record could be presented online. It is not affiliated with, endorsed by or published by the firm.</p>
+        <p>tvupele@gmail.com &nbsp;·&nbsp; +234 813 008 4366</p>
+      </div>
+    </div>
+    <div class="legend">
+      <span class="ph">Dotted underline</span> marks a detail I could not verify from public sources — office hours, email address and some practice descriptions are placeholders for the firm to confirm or correct. Everything else is drawn from the firm's own Google Business Profile, published court reports and the national press.
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var dot = document.getElementById('dot');
+  var text = document.getElementById('statusText');
+  if (!dot || !text) return;
+  // Office hours are a placeholder pending confirmation by the firm.
+  var now = new Date();
+  var day = now.getDay();          // 0 Sun .. 6 Sat
+  var mins = now.getHours() * 60 + now.getMinutes();
+  var open = day >= 1 && day <= 5 && mins >= 8 * 60 && mins < 17 * 60;
+  if (open) {
+    dot.className = 'dot open';
+    text.innerHTML = 'Open now &nbsp;·&nbsp; closes 5:00 p.m.';
+  } else {
+    dot.className = 'dot closed';
+    text.innerHTML = 'Closed &nbsp;·&nbsp; WhatsApp messages are answered when the office opens';
+  }
+})();
+</script>
+</body>
+</html>
