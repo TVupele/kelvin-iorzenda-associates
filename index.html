@@ -163,6 +163,12 @@ section.band{padding:104px 0}
 .checks b{color:#fff}
 .feature .note{font-size:13px; color:#8F96AE; margin-top:18px}
 
+/* ---------- team ---------- */
+.team-photos{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:88px}
+.team-photos figure{margin:0; overflow:hidden; background:var(--navy); cursor:zoom-in}
+.team-photos img{width:100%; height:100%; aspect-ratio:1.82; object-fit:cover; object-position:50% 60%; transition:transform .6s}
+.team-photos figure:hover img{transform:scale(1.03)}
+
 /* ---------- principal ---------- */
 .principal{display:grid; grid-template-columns:420px 1fr; gap:72px; align-items:start}
 .p-card{background:#fff; position:sticky; top:104px; box-shadow:0 30px 60px -30px rgba(28,35,64,.35)}
@@ -334,6 +340,7 @@ footer p{margin:0 0 12px; max-width:44ch}
   .principal{grid-template-columns:1fr}
   .p-card{position:static; max-width:420px}
   .media{grid-template-columns:1fr}
+  .team-photos{grid-template-columns:1fr; margin-bottom:56px}
   .gallery{grid-template-columns:1fr 1fr; grid-auto-rows:180px}
   .contact{gap:0}
   .map{min-height:340px}
@@ -383,7 +390,7 @@ footer p{margin:0 0 12px; max-width:44ch}
     <nav class="menu" id="menu" aria-label="Main">
       <a href="#about">The Firm</a>
       <a href="#practice">Expertise</a>
-      <a href="#principal">Our People</a>
+      <a href="#principal">Our Team</a>
       <a href="#media">Insights</a>
       <a href="#contact">Contact</a>
       <a class="btn btn-navy" href="#consultation">Book a Consultation</a>
@@ -419,7 +426,7 @@ footer p{margin:0 0 12px; max-width:44ch}
       <img src="assets/img/hero-portrait.jpg" alt="Kumater Kelvin Iorzenda, Esq., Principal Partner" width="1000" height="1250" fetchpriority="high">
       <div class="hero-badge">
         <b>Kelvin Iorzenda, Esq.</b>
-        <span>Principal Partner · Barrister &amp; Solicitor of the Supreme Court of Nigeria</span>
+        <span>(Notary Public)<br>Principal Partner</span>
       </div>
     </div>
   </div>
@@ -428,8 +435,8 @@ footer p{margin:0 0 12px; max-width:44ch}
 <!-- ============ STATS ============ -->
 <div class="stats">
   <div class="wrap">
-    <div class="stat rv"><b>14+</b><span>Years at the Nigerian Bar</span></div>
-    <div class="stat rv"><b>2012</b><span>Called to the Bar</span></div>
+    <div class="stat rv"><b>15+</b><span>Years of litigation &amp; courtroom practice</span></div>
+    <div class="stat rv"><b>2012</b><span>Called to the Nigerian Bar on 14th February, 2012</span></div>
     <div class="stat rv"><b>4</b><span>Jurisdictions litigated: Benue, Nasarawa, FCT &amp; Federal High Courts</span></div>
     <div class="stat rv"><b>2018</b><span>Firm established in Makurdi</span></div>
   </div>
@@ -474,7 +481,7 @@ footer p{margin:0 0 12px; max-width:44ch}
       <article class="pcard rv">
         <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 6v36M14 42h20M8 14h32M8 14l-5 12a6 6 0 0 0 10 0L8 14Zm32 0-5 12a6 6 0 0 0 10 0l-5-12Z"/></svg>
         <h3>Litigation &amp; Dispute Resolution</h3>
-        <p>Civil and commercial litigation before State, Federal and appellate courts, plus arbitration and negotiated settlements.</p>
+        <p>Civil and commercial litigation before various courts, land matters, labour and industrial disputes, election petitions, matrimonial causes, contracts and debt recovery suits, arbitration and other negotiated instruments.</p>
       </article>
       <article class="pcard rv">
         <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 4 8 10v12c0 10 7 18 16 22 9-4 16-12 16-22V10L24 4Z"/><path d="m17 24 5 5 9-10"/></svg>
@@ -539,15 +546,26 @@ footer p{margin:0 0 12px; max-width:44ch}
   </div>
 </section>
 
-<!-- ============ PRINCIPAL ============ -->
+<!-- ============ TEAM ============ -->
 <section class="band white" id="principal">
   <div class="wrap">
+    <div class="head">
+      <div class="rv">
+        <p class="eyebrow">Our Team</p>
+        <h2>Counsel you can count on.</h2>
+      </div>
+      <p class="rv">Our team of lawyers is well versed in existing and emerging areas of law, current global trends, and the regulatory and operational frameworks for businesses — ready to be deployed for the attainment of our clients’ goals.</p>
+    </div>
+    <div class="team-photos">
+      <figure class="rv"><img src="assets/img/team-robed.jpg" alt="The lawyers of Kelvin Iorzenda &amp; Associates in wigs and gowns" loading="lazy" width="1800" height="1119"></figure>
+      <figure class="rv"><img src="assets/img/team-suits.jpg" alt="The Kelvin Iorzenda &amp; Associates team" loading="lazy" width="1800" height="989"></figure>
+    </div>
     <div class="principal">
       <aside class="p-card rv">
         <img src="assets/img/standing.jpg" alt="Kumater Kelvin Iorzenda, Esq." loading="lazy" width="720" height="1062">
         <div class="meta">
           <b>Kumater Kelvin Iorzenda, Esq.</b>
-          <span>Principal Partner</span>
+          <span>(Notary Public) · Principal Partner</span>
           <div class="links">
             <a class="btn btn-navy" href="mailto:kelviniorzenda@gmail.com">Email</a>
             <a class="btn btn-line" href="https://wa.me/2347034611133" target="_blank" rel="noopener">WhatsApp</a>
@@ -555,20 +573,21 @@ footer p{margin:0 0 12px; max-width:44ch}
         </div>
       </aside>
       <div class="rv">
-        <p class="eyebrow">Our People</p>
+        <p class="eyebrow">Principal Partner</p>
         <h2>Kumater Kelvin Iorzenda, Esq.</h2>
-        <p class="role">Barrister &amp; Solicitor, Supreme Court of Nigeria · Head of Pro Bono, Elohim Chambers · Benue State Lead, Digital Rights Lawyers Initiative (DRLI)</p>
-        <p>Kelvin is a Barrister and Solicitor called to the Nigerian Bar in 2012, with over 14 years of experience in litigation and public interest advocacy. He heads the Pro Bono Department at Elohim Chambers, Makurdi, and serves as Benue State Lead of the Digital Rights Lawyers Initiative.</p>
+        <p class="role">(Notary Public)<br>Principal Partner</p>
+        <p>Kelvin was called to the Nigerian Bar as a Barrister and Solicitor of the Supreme Court of Nigeria on 14th February, 2012. He has over 15 years of experience in core litigation, courtroom practice and public interest advocacy. He is the Benue State Lead of the Digital Rights Lawyers Initiative (DRLI).</p>
         <p>His work focuses on providing legal representation to individuals and corporate clients, including — but not limited to — defending victims of unlawful detention and fundamental rights violations. He has litigated cases under the Fundamental Rights (Enforcement Procedure) Rules across Benue, Nasarawa, the FCT and the Federal High Courts on issues including torture, gender-based violence, freedom of expression and discrimination.</p>
-        <p>As technology evolves, Kelvin is deepening his expertise in digital rights, data protection, privacy and online freedoms. He is a regular legal analyst on Benue Television, commenting on aviation consumer rights, social media freedoms and constitutional governance.</p>
+        <p>As technology evolves, Kelvin is deepening his expertise in digital rights, data protection, privacy and online freedoms.</p>
+        <p>He is a regular legal analyst on Benue Television, NTA, Channels TV, News Central, AIT, Brothers FM, Agate Radio and several other stations and media outlets, where he provides legal insights on a wide range of trending and complex legal issues — including, but not limited to, aviation and consumer rights, social media freedom and constitutional governance.</p>
 
         <div class="creds">
           <ul>
-            <li><span class="k">Call to Bar</span><span>Barrister &amp; Solicitor of the Supreme Court of Nigeria, 2012</span></li>
+            <li><span class="k">Call to Bar</span><span>Called to the Nigerian Bar as a Barrister and Solicitor of the Supreme Court of Nigeria on 14th February, 2012</span></li>
             <li><span class="k">Bar Service</span><span>Former Secretary, Nigerian Bar Association (NBA), Makurdi Branch</span></li>
-            <li><span class="k">Education</span><span>LL.M coursework completed, Moses Orshio Adasu University, Makurdi (awaiting defence)</span></li>
+            <li><span class="k">Education</span><span>LL.B (Hons), B.L.<br>LL.M coursework completed, Moses Orshio Adasu University, Makurdi (awaiting defence)</span></li>
             <li><span class="k">Training</span><span>Master Trainers Course on Drug Prevention, Treatment and Care (DPTC) — UNODC, funded by the European Union</span></li>
-            <li><span class="k">Memberships</span><span>Digital Lawyers Network · Digital Rights Lawyers Initiative (DRLI) · Data Protection Litigators Network (DPLN)</span></li>
+            <li><span class="k">Memberships</span><span>Nigerian Bar Association (NBA) · State Coordinator, Legal Advocacy Response to Drugs Initiative (LARDI) · Digital Lawyers Network · Digital Rights Lawyers Initiative (DRLI) · Data Protection Litigators Network (DPLN)</span></li>
           </ul>
         </div>
         <div class="tags">
@@ -587,7 +606,7 @@ footer p{margin:0 0 12px; max-width:44ch}
         <p class="eyebrow">Insights &amp; Media</p>
         <h2>Shaping the public conversation on law.</h2>
       </div>
-      <p class="rv">Selected appearances on Benue Television’s <em>Day Break Benue</em>, where our principal analyses the legal issues affecting citizens and businesses.</p>
+      <p class="rv">Our principal is a regular legal analyst on Benue Television, NTA, Channels TV, News Central, AIT, Brothers FM, Agate Radio and other outlets. Selected appearances on Benue Television’s <em>Day Break Benue</em>:</p>
     </div>
     <div class="media">
       <article class="mcard rv">
@@ -826,7 +845,7 @@ footer p{margin:0 0 12px; max-width:44ch}
         <h4>Firm</h4>
         <ul>
           <li><a href="#about">About KIA</a></li>
-          <li><a href="#principal">Our People</a></li>
+          <li><a href="#principal">Our Team</a></li>
           <li><a href="#media">Insights &amp; Media</a></li>
           <li><a href="#gallery">Gallery</a></li>
         </ul>
@@ -908,7 +927,7 @@ footer p{margin:0 0 12px; max-width:44ch}
 
   // gallery lightbox
   var lb = $('lightbox'), lbImg = $('lbImg');
-  document.querySelectorAll('#gallery-grid figure').forEach(function (f) {
+  document.querySelectorAll('#gallery-grid figure, .team-photos figure').forEach(function (f) {
     f.addEventListener('click', function () { var i = f.querySelector('img'); lbImg.src = i.src; lbImg.alt = i.alt; lb.classList.add('on'); });
   });
   function closeLb() { lb.classList.remove('on'); }
