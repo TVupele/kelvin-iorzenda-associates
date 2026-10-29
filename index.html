@@ -203,7 +203,7 @@ section.band{padding:104px 0}
 .media-cta{margin-top:40px; display:flex; justify-content:center; gap:14px; flex-wrap:wrap}
 
 /* ---------- gallery ---------- */
-.gallery{display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:220px; gap:12px}
+.gallery{display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:220px; grid-auto-flow:dense; gap:12px}
 .gallery figure{margin:0; position:relative; overflow:hidden; background:var(--navy); cursor:zoom-in}
 .gallery img{width:100%; height:100%; object-fit:cover; transition:transform .6s, opacity .3s}
 .gallery figure:hover img{transform:scale(1.05); opacity:.85}
@@ -212,6 +212,8 @@ section.band{padding:104px 0}
 .gallery figure:hover figcaption{opacity:1}
 .g-tall{grid-row:span 2}
 .g-wide{grid-column:span 2}
+.g-big{grid-column:span 2; grid-row:span 2}
+.g-big img{object-position:50% 6%}
 .lightbox{position:fixed; inset:0; z-index:200; background:rgba(10,13,26,.92); display:none; align-items:center; justify-content:center; padding:24px}
 .lightbox.on{display:flex}
 .lightbox img{max-height:86vh; max-width:92vw; object-fit:contain; box-shadow:0 30px 80px rgba(0,0,0,.5)}
@@ -654,6 +656,7 @@ footer p{margin:0 0 12px; max-width:44ch}
       <figure class="rv"><img src="assets/img/handshake.jpg" alt="Receiving a colleague at a bar event" loading="lazy"><figcaption>Bar engagement</figcaption></figure>
       <figure class="rv"><img src="assets/img/colleagues.jpg" alt="With colleagues at a legal conference" loading="lazy"><figcaption>Among colleagues</figcaption></figure>
       <figure class="g-wide rv"><img src="assets/img/event-seated.jpg" alt="At a legal conference" loading="lazy"><figcaption>Professional conference</figcaption></figure>
+      <figure class="g-big rv"><img src="assets/img/headshot.jpg" alt="Kelvin Iorzenda, Esq., studio portrait" loading="lazy"><figcaption>Kelvin Iorzenda, Esq. (Notary Public), Principal Partner</figcaption></figure>
       <figure class="g-wide rv"><img src="assets/img/tv-rivers-close.jpg" alt="Analysing the Supreme Court verdict on Benue Television" loading="lazy"><figcaption>Legal analysis on Benue Television</figcaption></figure>
     </div>
   </div>
